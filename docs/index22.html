@@ -3,42 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Travel</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Login-Register Form</title>
+  <link rel="stylesheet" href="style22.css">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
 </head>
 <body>
 
-  <section class="showcase">
-    <header>
-      <h2 class="logo">Travel</h2>
-      <div class="toggle"></div>
-    </header>
-    <video src="/public/output.mp4" muted loop autoplay></video>
-    <div class="overlay"></div>
-    <div class="text">
-      <h2>Never Stop To </h2> 
-      <h3>Exploring The World</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.</p>
-      <a href="#">Explore</a>
+  <div class="hero">
+    <div class="form-box">
+      <div class="button-box"></div>
+      <div class="btn"></div>
+      <button type="button" class="toggle-btn">Log In</button>
+      <button type="button" class="toggle-btn">Register</button>
     </div>
-    <ul class="social">
-      <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
-      <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
-      <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
-    </ul>
-  </section>
-  <div class="menu">
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">News</a></li>
-      <li><a href="#">Destination</a></li>
-      <li><a href="#">Blog</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
+    <div class="social-icons">
+      <i class="bx bx1-facebook-circle"></i>
+      <i class="bx bx1-instagram"></i>
+      <i class="bx bx1-twitter"></i>
+    </div>
+    <form  id="login" class="input-group">
+        <input type="text" class="input-field" placeholder="User Id" required>
+        <input type="text" class="input-field" placeholder="Totally Not Abc123" required>
+        <input type="checkbox" class="check-box"> <span>Remember Password</span>
+        <button type="submit" class="submit-btn">Log In</button>
+        
+    </form>
+    <form id="register" class="input-group">
+      <input type="text" class="input-field" placeholder="User Id" required>
+      <input type="email" class="input-field" placeholder="Email" required>
+      <input type="text" class="input-field" placeholder="Enter Password you Noob" required>
+      <input type="checkbox" class="check-box"> <span> I agree Jason <a href="#">is cool.</a> </span>
+      <button type="submit" class="submit-btn">Log In</button>
+    </form>
   </div>
-  <script type="module" src="main.js"></script>
+</div>
+<script></script>
 </body>
 </html>
